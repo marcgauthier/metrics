@@ -8,7 +8,7 @@ package zstd
 import (
 	"math/bits"
 
-	"github.com/marcgauthier/logmetrics/internal/compress/internal/le"
+	"github.com/marcgauthier/metrics/internal/compress/internal/le"
 )
 
 // matchLen returns the maximum common prefix length of a and b.

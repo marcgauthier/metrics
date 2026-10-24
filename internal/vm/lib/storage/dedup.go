@@ -3,7 +3,7 @@ package storage
 import (
 	"time"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/decimal"
+	"github.com/marcgauthier/metrics/internal/vm/lib/decimal"
 )
 
 // SetDedupInterval sets the deduplication interval, which is applied to raw samples during data ingestion and querying.

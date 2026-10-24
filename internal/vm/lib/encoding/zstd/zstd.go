@@ -4,8 +4,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/marcgauthier/logmetrics/internal/compress/zstd"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/logger"
+	"github.com/marcgauthier/metrics/internal/compress/zstd"
+	"github.com/marcgauthier/metrics/internal/vm/lib/logger"
 )
 
 var (

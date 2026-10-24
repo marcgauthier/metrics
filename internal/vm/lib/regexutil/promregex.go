@@ -6,7 +6,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/bytesutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/bytesutil"
 )
 
 // PromRegex implements an optimized string matching for Prometheus-like regex.

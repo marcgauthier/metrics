@@ -13,7 +13,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/marcgauthier/logmetrics"
+	"github.com/marcgauthier/metrics"
 )
 
 func main() {

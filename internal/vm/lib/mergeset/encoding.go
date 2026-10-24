@@ -9,10 +9,10 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/bytesutil"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/encoding"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/logger"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/slicesutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/bytesutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/encoding"
+	"github.com/marcgauthier/metrics/internal/vm/lib/logger"
+	"github.com/marcgauthier/metrics/internal/vm/lib/slicesutil"
 )
 
 // Item represents a single item for storing in a mergeset.

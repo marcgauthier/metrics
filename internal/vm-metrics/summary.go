@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/marcgauthier/logmetrics/internal/histogram"
+	"github.com/marcgauthier/metrics/internal/histogram"
 )
 
 const defaultSummaryWindow = 5 * time.Minute

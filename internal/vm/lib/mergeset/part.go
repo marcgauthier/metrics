@@ -5,11 +5,11 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/blockcache"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/filestream"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/fs"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/logger"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/memory"
+	"github.com/marcgauthier/metrics/internal/vm/lib/blockcache"
+	"github.com/marcgauthier/metrics/internal/vm/lib/filestream"
+	"github.com/marcgauthier/metrics/internal/vm/lib/fs"
+	"github.com/marcgauthier/metrics/internal/vm/lib/logger"
+	"github.com/marcgauthier/metrics/internal/vm/lib/memory"
 )
 
 var idxbCache = blockcache.NewCache(getMaxIndexBlocksCacheSize)

@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/marcgauthier/logmetrics/internal/vm-metrics"
+	"github.com/marcgauthier/metrics/internal/vm-metrics"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/logger"
+	"github.com/marcgauthier/metrics/internal/vm/lib/logger"
 )
 
 // AvailableCPUs returns the number of available CPU cores for the app.

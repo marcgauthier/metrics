@@ -6,11 +6,11 @@ import (
 	"slices"
 	"time"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/fasttime"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/fs"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/logger"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/querytracer"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/uint64set"
+	"github.com/marcgauthier/metrics/internal/vm/lib/fasttime"
+	"github.com/marcgauthier/metrics/internal/vm/lib/fs"
+	"github.com/marcgauthier/metrics/internal/vm/lib/logger"
+	"github.com/marcgauthier/metrics/internal/vm/lib/querytracer"
+	"github.com/marcgauthier/metrics/internal/vm/lib/uint64set"
 )
 
 type legacyIndexDBs struct {

@@ -6,8 +6,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/fasttime"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/timeutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/fasttime"
+	"github.com/marcgauthier/metrics/internal/vm/lib/timeutil"
 )
 
 // Cache caches Entry entries.

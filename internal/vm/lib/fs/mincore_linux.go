@@ -7,7 +7,7 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/logger"
+	"github.com/marcgauthier/metrics/internal/vm/lib/logger"
 )
 
 func supportsMincore() bool {

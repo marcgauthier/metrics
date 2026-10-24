@@ -11,7 +11,7 @@ import (
 	"math/bits"
 	"slices"
 
-	"github.com/marcgauthier/logmetrics/internal/compress/huff0"
+	"github.com/marcgauthier/metrics/internal/compress/huff0"
 )
 
 type blockEnc struct {

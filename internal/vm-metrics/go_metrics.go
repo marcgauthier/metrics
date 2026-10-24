@@ -9,7 +9,7 @@ import (
 	runtimemetrics "runtime/metrics"
 	"strings"
 
-	"github.com/marcgauthier/logmetrics/internal/histogram"
+	"github.com/marcgauthier/metrics/internal/histogram"
 )
 
 // See https://pkg.go.dev/runtime/metrics#hdr-Supported_metrics

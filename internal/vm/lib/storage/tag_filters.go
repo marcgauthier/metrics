@@ -10,13 +10,13 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/atomicutil"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/bytesutil"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/logger"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/lrucache"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/memory"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/regexutil"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/stringsutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/atomicutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/bytesutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/logger"
+	"github.com/marcgauthier/metrics/internal/vm/lib/lrucache"
+	"github.com/marcgauthier/metrics/internal/vm/lib/memory"
+	"github.com/marcgauthier/metrics/internal/vm/lib/regexutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/stringsutil"
 )
 
 func getCommonMetricNameForTagFilterss(tfss []*TagFilters) []byte {

@@ -3,10 +3,10 @@ package encoding
 import (
 	"fmt"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/bytesutil"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/decimal"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/fastnum"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/logger"
+	"github.com/marcgauthier/metrics/internal/vm/lib/bytesutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/decimal"
+	"github.com/marcgauthier/metrics/internal/vm/lib/fastnum"
+	"github.com/marcgauthier/metrics/internal/vm/lib/logger"
 )
 
 // minCompressibleBlockSize is the minimum block size in bytes for trying compression.

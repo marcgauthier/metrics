@@ -4,11 +4,11 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
-	"github.com/marcgauthier/logmetrics/internal/cryptofs"
+	"github.com/marcgauthier/metrics/internal/cryptofs"
 	"path/filepath"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/fs"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/logger"
+	"github.com/marcgauthier/metrics/internal/vm/lib/fs"
+	"github.com/marcgauthier/metrics/internal/vm/lib/logger"
 )
 
 type partHeader struct {

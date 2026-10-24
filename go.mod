@@ -1,4 +1,4 @@
-module github.com/marcgauthier/logmetrics
+module github.com/marcgauthier/metrics
 
 go 1.26.10
 

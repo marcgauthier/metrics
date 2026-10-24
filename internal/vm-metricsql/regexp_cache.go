@@ -5,7 +5,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/marcgauthier/logmetrics/internal/vm-metrics"
+	"github.com/marcgauthier/metrics/internal/vm-metrics"
 )
 
 // CompileRegexpAnchored returns compiled regexp `^re$`.

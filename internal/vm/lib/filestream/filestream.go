@@ -8,11 +8,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/marcgauthier/logmetrics/internal/cryptofs"
-	"github.com/marcgauthier/logmetrics/internal/vm-metrics"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/fs/fsutil"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/logger"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/memory"
+	"github.com/marcgauthier/metrics/internal/cryptofs"
+	"github.com/marcgauthier/metrics/internal/vm-metrics"
+	"github.com/marcgauthier/metrics/internal/vm/lib/fs/fsutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/logger"
+	"github.com/marcgauthier/metrics/internal/vm/lib/memory"
 )
 
 // disableFadvise disables the fadvise() syscall when reading large data files.

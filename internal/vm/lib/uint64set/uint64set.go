@@ -9,8 +9,8 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/encoding"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/slicesutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/encoding"
+	"github.com/marcgauthier/metrics/internal/vm/lib/slicesutil"
 )
 
 // Set is a fast set for uint64.

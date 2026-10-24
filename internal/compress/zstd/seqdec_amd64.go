@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/marcgauthier/logmetrics/internal/compress/internal/cpuinfo"
+	"github.com/marcgauthier/metrics/internal/compress/internal/cpuinfo"
 )
 
 type decodeSyncAsmContext struct {

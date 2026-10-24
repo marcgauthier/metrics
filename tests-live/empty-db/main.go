@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/marcgauthier/logmetrics"
+	"github.com/marcgauthier/metrics"
 )
 
 func main() {

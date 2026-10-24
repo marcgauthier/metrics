@@ -5,7 +5,7 @@ import (
 	"math"
 	"strings"
 
-	"github.com/marcgauthier/logmetrics/internal/vm-metricsql/binaryop"
+	"github.com/marcgauthier/metrics/internal/vm-metricsql/binaryop"
 )
 
 var binaryOps = map[string]bool{

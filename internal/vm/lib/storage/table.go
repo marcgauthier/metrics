@@ -9,11 +9,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/cgroup"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/fasttime"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/fs"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/logger"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/timeutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/cgroup"
+	"github.com/marcgauthier/metrics/internal/vm/lib/fasttime"
+	"github.com/marcgauthier/metrics/internal/vm/lib/fs"
+	"github.com/marcgauthier/metrics/internal/vm/lib/logger"
+	"github.com/marcgauthier/metrics/internal/vm/lib/timeutil"
 )
 
 var finalDedupScheduleInterval = time.Hour

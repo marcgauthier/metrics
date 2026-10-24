@@ -3,12 +3,12 @@ package storage
 import (
 	"path/filepath"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/cgroup"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/chunkedbuffer"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/fasttime"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/filestream"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/fs"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/logger"
+	"github.com/marcgauthier/metrics/internal/vm/lib/cgroup"
+	"github.com/marcgauthier/metrics/internal/vm/lib/chunkedbuffer"
+	"github.com/marcgauthier/metrics/internal/vm/lib/fasttime"
+	"github.com/marcgauthier/metrics/internal/vm/lib/filestream"
+	"github.com/marcgauthier/metrics/internal/vm/lib/fs"
+	"github.com/marcgauthier/metrics/internal/vm/lib/logger"
 )
 
 // inmemoryPart represents in-memory partition.

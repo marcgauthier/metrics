@@ -13,14 +13,14 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/marcgauthier/logmetrics/internal/cryptofs"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/atomicutil"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/cgroup"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/fs"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/logger"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/memory"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/syncwg"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/timeutil"
+	"github.com/marcgauthier/metrics/internal/cryptofs"
+	"github.com/marcgauthier/metrics/internal/vm/lib/atomicutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/cgroup"
+	"github.com/marcgauthier/metrics/internal/vm/lib/fs"
+	"github.com/marcgauthier/metrics/internal/vm/lib/logger"
+	"github.com/marcgauthier/metrics/internal/vm/lib/memory"
+	"github.com/marcgauthier/metrics/internal/vm/lib/syncwg"
+	"github.com/marcgauthier/metrics/internal/vm/lib/timeutil"
 )
 
 // maxInmemoryParts is the maximum number of inmemory parts in the table.

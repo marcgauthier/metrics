@@ -7,10 +7,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/blockcache"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/bytesutil"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/encoding"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/logger"
+	"github.com/marcgauthier/metrics/internal/vm/lib/blockcache"
+	"github.com/marcgauthier/metrics/internal/vm/lib/bytesutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/encoding"
+	"github.com/marcgauthier/metrics/internal/vm/lib/logger"
 )
 
 // partSearch represents blocks stream for the given search args

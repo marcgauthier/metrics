@@ -5,10 +5,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/decimal"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/fasttime"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/logger"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/uint64set"
+	"github.com/marcgauthier/metrics/internal/vm/lib/decimal"
+	"github.com/marcgauthier/metrics/internal/vm/lib/fasttime"
+	"github.com/marcgauthier/metrics/internal/vm/lib/logger"
+	"github.com/marcgauthier/metrics/internal/vm/lib/uint64set"
 )
 
 // mergeBlockStreams merges bsrs into bsw and updates ph.

@@ -4,8 +4,8 @@ import (
 	"math"
 	"sync"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/fastnum"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/slicesutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/fastnum"
+	"github.com/marcgauthier/metrics/internal/vm/lib/slicesutil"
 )
 
 // CalibrateScale calibrates a and b with the corresponding exponents ae, be

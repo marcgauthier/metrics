@@ -11,8 +11,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/marcgauthier/logmetrics/internal/compress/huff0"
-	"github.com/marcgauthier/logmetrics/internal/compress/zstd/internal/xxhash"
+	"github.com/marcgauthier/metrics/internal/compress/huff0"
+	"github.com/marcgauthier/metrics/internal/compress/zstd/internal/xxhash"
 )
 
 type blockType uint8

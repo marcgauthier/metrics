@@ -4,8 +4,8 @@ import (
 	"math"
 	"sync"
 
-	"github.com/marcgauthier/logmetrics/internal/vm-metrics"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/logger"
+	"github.com/marcgauthier/metrics/internal/vm-metrics"
+	"github.com/marcgauthier/metrics/internal/vm/lib/logger"
 )
 
 // This is an embedded library and registers no command-line flags. These are

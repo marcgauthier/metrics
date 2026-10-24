@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/bytesutil"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/encoding"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/prompb"
+	"github.com/marcgauthier/metrics/internal/vm/lib/bytesutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/encoding"
+	"github.com/marcgauthier/metrics/internal/vm/lib/prompb"
 )
 
 // Row represents time series metadata record

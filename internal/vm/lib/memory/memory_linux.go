@@ -3,8 +3,8 @@ package memory
 import (
 	"syscall"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/cgroup"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/logger"
+	"github.com/marcgauthier/metrics/internal/vm/lib/cgroup"
+	"github.com/marcgauthier/metrics/internal/vm/lib/logger"
 )
 
 const maxInt = int(^uint(0) >> 1)

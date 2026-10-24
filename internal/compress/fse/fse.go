@@ -8,7 +8,7 @@
 // Finite State Entropy encoding provides a fast near-optimal symbol encoding/decoding
 // for byte blocks as implemented in zstd.
 //
-// See https://github.com/marcgauthier/logmetrics/internal/compress/tree/master/fse for more information.
+// See https://github.com/marcgauthier/metrics/internal/compress/tree/master/fse for more information.
 package fse
 
 import (

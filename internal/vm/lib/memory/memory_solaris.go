@@ -1,7 +1,7 @@
 package memory
 
 import (
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/logger"
+	"github.com/marcgauthier/metrics/internal/vm/lib/logger"
 	"golang.org/x/sys/unix"
 )
 

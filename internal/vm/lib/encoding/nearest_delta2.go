@@ -3,8 +3,8 @@ package encoding
 import (
 	"fmt"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/logger"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/slicesutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/logger"
+	"github.com/marcgauthier/metrics/internal/vm/lib/slicesutil"
 )
 
 // marshalInt64NearestDelta2 encodes src using `nearest delta2` encoding

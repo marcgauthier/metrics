@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/marcgauthier/logmetrics/internal/compress"
+	"github.com/marcgauthier/metrics/internal/compress"
 )
 
 const (

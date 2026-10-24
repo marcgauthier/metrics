@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/marcgauthier/logmetrics/internal/vm-metricsql"
+	"github.com/marcgauthier/metrics/internal/vm-metricsql"
 )
 
 // NewRetentionDuration returns new `duration` flag with the given name, defaultValue and description.

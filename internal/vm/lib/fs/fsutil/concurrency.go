@@ -3,7 +3,7 @@ package fsutil
 import (
 	"sync"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/cgroup"
+	"github.com/marcgauthier/metrics/internal/vm/lib/cgroup"
 )
 
 // maxConcurrency is the maximum number of concurrent goroutines to work with

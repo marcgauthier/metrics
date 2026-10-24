@@ -4,8 +4,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/fs/fsutil"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/logger"
+	"github.com/marcgauthier/metrics/internal/vm/lib/fs/fsutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/logger"
 )
 
 // ParallelFileCreator is used for parallel creating of files for the given dstPath.

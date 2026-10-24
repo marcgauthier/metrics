@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/logger"
+	"github.com/marcgauthier/metrics/internal/vm/lib/logger"
 )
 
 var snapshotNameRegexp = regexp.MustCompile(`^[0-9]{14}-[0-9A-Fa-f]+$`)

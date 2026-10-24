@@ -5,7 +5,7 @@ import (
 	"io"
 	"sort"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/encoding"
+	"github.com/marcgauthier/metrics/internal/vm/lib/encoding"
 )
 
 // metaindexRow is a single metaindex row.

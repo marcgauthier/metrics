@@ -5,7 +5,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/fasttime"
+	"github.com/marcgauthier/metrics/internal/vm/lib/fasttime"
 )
 
 // FastStringTransformer implements fast transformer for strings.

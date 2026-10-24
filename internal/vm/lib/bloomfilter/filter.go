@@ -4,7 +4,7 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/marcgauthier/logmetrics/internal/xxhash"
+	"github.com/marcgauthier/metrics/internal/xxhash"
 )
 
 const hashesCount = 4

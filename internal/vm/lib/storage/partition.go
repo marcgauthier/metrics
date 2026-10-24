@@ -11,14 +11,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/marcgauthier/logmetrics/internal/cryptofs"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/cgroup"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/encoding"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/fs"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/logger"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/memory"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/syncwg"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/timeutil"
+	"github.com/marcgauthier/metrics/internal/cryptofs"
+	"github.com/marcgauthier/metrics/internal/vm/lib/cgroup"
+	"github.com/marcgauthier/metrics/internal/vm/lib/encoding"
+	"github.com/marcgauthier/metrics/internal/vm/lib/fs"
+	"github.com/marcgauthier/metrics/internal/vm/lib/logger"
+	"github.com/marcgauthier/metrics/internal/vm/lib/memory"
+	"github.com/marcgauthier/metrics/internal/vm/lib/syncwg"
+	"github.com/marcgauthier/metrics/internal/vm/lib/timeutil"
 )
 
 // The maximum size of big part.

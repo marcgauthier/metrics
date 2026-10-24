@@ -3,7 +3,7 @@
 package memory
 
 import (
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/logger"
+	"github.com/marcgauthier/metrics/internal/vm/lib/logger"
 )
 
 // This code has been adopted from https://github.com/pbnjay/memory

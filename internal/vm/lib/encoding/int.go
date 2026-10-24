@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/slicesutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/slicesutil"
 )
 
 // MarshalUint16 appends marshaled v to dst and returns the result.

@@ -7,9 +7,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/bytesutil"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/filestream"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/logger"
+	"github.com/marcgauthier/metrics/internal/vm/lib/bytesutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/filestream"
+	"github.com/marcgauthier/metrics/internal/vm/lib/logger"
 )
 
 const chunkSize = 4 * 1024

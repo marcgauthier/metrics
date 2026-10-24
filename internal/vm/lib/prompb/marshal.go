@@ -6,7 +6,7 @@ import (
 	"math"
 	"math/bits"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/slicesutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/slicesutil"
 )
 
 // MarshalProtobuf marshals wr to dst and returns the result.

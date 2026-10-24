@@ -6,7 +6,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/marcgauthier/logmetrics/internal/compress/fse"
+	"github.com/marcgauthier/metrics/internal/compress/fse"
 )
 
 type dTable struct {

@@ -5,14 +5,14 @@ import (
 	"io"
 	"strings"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/bytesutil"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/encoding"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/fasttime"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/logger"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/querytracer"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/slicesutil"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/storage/metricnamestats"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/stringsutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/bytesutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/encoding"
+	"github.com/marcgauthier/metrics/internal/vm/lib/fasttime"
+	"github.com/marcgauthier/metrics/internal/vm/lib/logger"
+	"github.com/marcgauthier/metrics/internal/vm/lib/querytracer"
+	"github.com/marcgauthier/metrics/internal/vm/lib/slicesutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/storage/metricnamestats"
+	"github.com/marcgauthier/metrics/internal/vm/lib/stringsutil"
 )
 
 // BlockRef references a Block.

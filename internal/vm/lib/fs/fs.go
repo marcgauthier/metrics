@@ -8,13 +8,13 @@ import (
 	"regexp"
 	"sync"
 
-	"github.com/marcgauthier/logmetrics/internal/cryptofs"
-	"github.com/marcgauthier/logmetrics/internal/vm-metrics"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/atomicutil"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/fasttime"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/filestream"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/fs/fsutil"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/logger"
+	"github.com/marcgauthier/metrics/internal/cryptofs"
+	"github.com/marcgauthier/metrics/internal/vm-metrics"
+	"github.com/marcgauthier/metrics/internal/vm/lib/atomicutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/fasttime"
+	"github.com/marcgauthier/metrics/internal/vm/lib/filestream"
+	"github.com/marcgauthier/metrics/internal/vm/lib/fs/fsutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/logger"
 )
 
 var tmpFileNum atomicutil.Uint64

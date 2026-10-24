@@ -3,8 +3,8 @@ package encoding
 import (
 	"fmt"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/encoding/zstd"
-	"github.com/marcgauthier/logmetrics/internal/vm-metrics"
+	"github.com/marcgauthier/metrics/internal/vm/lib/encoding/zstd"
+	"github.com/marcgauthier/metrics/internal/vm-metrics"
 )
 
 // CompressZSTDLevel appends compressed src to dst and returns the appended dst.

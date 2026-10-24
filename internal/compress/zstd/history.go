@@ -5,7 +5,7 @@
 package zstd
 
 import (
-	"github.com/marcgauthier/logmetrics/internal/compress/huff0"
+	"github.com/marcgauthier/metrics/internal/compress/huff0"
 )
 
 // history contains the information transferred between blocks.

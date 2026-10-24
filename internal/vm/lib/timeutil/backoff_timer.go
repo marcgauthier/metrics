@@ -3,7 +3,7 @@ package timeutil
 import (
 	"time"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/timerpool"
+	"github.com/marcgauthier/metrics/internal/vm/lib/timerpool"
 )
 
 // BackoffTimer implements an exponential backoff timer with jitter.

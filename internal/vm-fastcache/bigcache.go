@@ -4,7 +4,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	xxhash "github.com/marcgauthier/logmetrics/internal/xxhash"
+	xxhash "github.com/marcgauthier/metrics/internal/xxhash"
 )
 
 // maxSubvalueLen is the maximum size of subvalue chunk.

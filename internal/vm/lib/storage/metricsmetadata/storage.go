@@ -9,11 +9,11 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/marcgauthier/logmetrics/internal/xxhash"
+	"github.com/marcgauthier/metrics/internal/xxhash"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/bytesutil"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/fasttime"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/timeutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/bytesutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/fasttime"
+	"github.com/marcgauthier/metrics/internal/vm/lib/timeutil"
 )
 
 const (

@@ -15,7 +15,7 @@ import shutil
 import subprocess
 
 REPO = Path(__file__).resolve().parent.parent
-MODULE = "github.com/marcgauthier/logmetrics"
+MODULE = "github.com/marcgauthier/metrics"
 PREFIX = "github.com/VictoriaMetrics/"
 UPSTREAM_VERSION = "v1.150.0"
 
@@ -136,7 +136,7 @@ def main():
         "This package contains a focused, source-level fork of the VictoriaMetrics storage",
         "engine and the related VictoriaMetrics packages required by its",
         "in-process Go API. Packages are copied into internal/ and import paths",
-        "are rewritten for the github.com/marcgauthier/logmetrics module.", "",
+        "are rewritten for the github.com/marcgauthier/metrics module.", "",
         "Upstream source: VictoriaMetrics " + UPSTREAM_VERSION + " and its pinned Go module graph.",
         "Copyright and license headers in upstream source are retained.",
         "The original module-level licenses are copied into each internal fork",

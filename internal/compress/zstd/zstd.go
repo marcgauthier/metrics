@@ -1,6 +1,6 @@
 // Package zstd provides decompression of zstandard files.
 //
-// For advanced usage and examples, go to the README: https://github.com/marcgauthier/logmetrics/internal/compress/tree/master/zstd#zstd
+// For advanced usage and examples, go to the README: https://github.com/marcgauthier/metrics/internal/compress/tree/master/zstd#zstd
 package zstd
 
 import (
@@ -9,7 +9,7 @@ import (
 	"log"
 	"math"
 
-	"github.com/marcgauthier/logmetrics/internal/compress/internal/le"
+	"github.com/marcgauthier/metrics/internal/compress/internal/le"
 )
 
 // enable debug printing

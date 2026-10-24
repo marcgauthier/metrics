@@ -9,7 +9,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/buildinfo"
+	"github.com/marcgauthier/metrics/internal/vm/lib/buildinfo"
 )
 
 // denyQueryTracing disables the ability to trace queries. This is an embedded

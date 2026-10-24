@@ -3,7 +3,7 @@ package prompb
 import (
 	"strconv"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/bytesutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/bytesutil"
 )
 
 type fmtBuffer struct {

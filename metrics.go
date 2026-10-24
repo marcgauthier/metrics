@@ -15,9 +15,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/marcgauthier/logmetrics/internal/cryptofs"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/prompb"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/storage"
+	"github.com/marcgauthier/metrics/internal/cryptofs"
+	"github.com/marcgauthier/metrics/internal/vm/lib/prompb"
+	"github.com/marcgauthier/metrics/internal/vm/lib/storage"
 )
 
 var (

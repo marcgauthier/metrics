@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/marcgauthier/logmetrics/internal/cryptofs"
+	"github.com/marcgauthier/metrics/internal/cryptofs"
 )
 
 func TestEncryptedDatabaseRoundTrip(t *testing.T) {

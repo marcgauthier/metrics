@@ -4,9 +4,9 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/encoding"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/filestream"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/fs"
+	"github.com/marcgauthier/metrics/internal/vm/lib/encoding"
+	"github.com/marcgauthier/metrics/internal/vm/lib/filestream"
+	"github.com/marcgauthier/metrics/internal/vm/lib/fs"
 )
 
 type blockStreamWriter struct {

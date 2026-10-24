@@ -5,7 +5,7 @@ import (
 	"math"
 	"sync"
 
-	"github.com/marcgauthier/logmetrics/internal/vm-easyproto"
+	"github.com/marcgauthier/metrics/internal/vm-easyproto"
 )
 
 // GetWriteRequestUnmarshaler returns WriteRequestUnmarshaler from the pool.

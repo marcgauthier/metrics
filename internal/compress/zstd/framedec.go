@@ -10,7 +10,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/marcgauthier/logmetrics/internal/compress/zstd/internal/xxhash"
+	"github.com/marcgauthier/metrics/internal/compress/zstd/internal/xxhash"
 )
 
 type frameDec struct {

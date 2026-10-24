@@ -4,7 +4,7 @@ import (
 	"container/heap"
 	"fmt"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/encoding"
+	"github.com/marcgauthier/metrics/internal/vm/lib/encoding"
 )
 
 // TSID is unique id for a time series.

@@ -10,7 +10,7 @@ import (
 	"regexp"
 	"runtime"
 
-	"github.com/marcgauthier/logmetrics/internal/snappy"
+	"github.com/marcgauthier/metrics/internal/snappy"
 )
 
 // SaveToFile atomically saves cache data to the given filePath using a single

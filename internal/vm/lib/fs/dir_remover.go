@@ -10,8 +10,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/logger"
-	"github.com/marcgauthier/logmetrics/internal/vm-metrics"
+	"github.com/marcgauthier/metrics/internal/vm/lib/logger"
+	"github.com/marcgauthier/metrics/internal/vm-metrics"
 )
 
 // directories with this filename are scheduled to be removed by MustRemoveDir().

@@ -7,10 +7,10 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/cgroup"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/fasttime"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/timeutil"
-	"github.com/marcgauthier/logmetrics/internal/xxhash"
+	"github.com/marcgauthier/metrics/internal/vm/lib/cgroup"
+	"github.com/marcgauthier/metrics/internal/vm/lib/fasttime"
+	"github.com/marcgauthier/metrics/internal/vm/lib/timeutil"
+	"github.com/marcgauthier/metrics/internal/xxhash"
 )
 
 // missesBeforeCaching is the number of cache misses before putting the block

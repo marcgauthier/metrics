@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/marcgauthier/logmetrics/internal/compress/internal/le"
+	"github.com/marcgauthier/metrics/internal/compress/internal/le"
 )
 
 // bitReader reads a bitstream in reverse.

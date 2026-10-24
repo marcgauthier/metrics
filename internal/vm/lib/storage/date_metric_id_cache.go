@@ -7,9 +7,9 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/atomicutil"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/timeutil"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/uint64set"
+	"github.com/marcgauthier/metrics/internal/vm/lib/atomicutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/timeutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/uint64set"
 )
 
 const (

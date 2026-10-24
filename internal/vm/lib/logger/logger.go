@@ -11,9 +11,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/marcgauthier/logmetrics/internal/vm-metrics"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/buildinfo"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/stringsutil"
+	"github.com/marcgauthier/metrics/internal/vm-metrics"
+	"github.com/marcgauthier/metrics/internal/vm/lib/buildinfo"
+	"github.com/marcgauthier/metrics/internal/vm/lib/stringsutil"
 )
 
 // This is an embedded library and registers no command-line flags. These are

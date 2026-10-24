@@ -3,7 +3,7 @@ package encoding
 import (
 	"sync"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/slicesutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/slicesutil"
 )
 
 // GetFloat64s returns a slice of float64 values with the given size.

@@ -5,7 +5,7 @@ package fasttime
 import (
 	"time"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/atomicutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/atomicutil"
 )
 
 func init() {

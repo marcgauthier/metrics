@@ -4,8 +4,8 @@ import (
 	"flag"
 	"strings"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/buildinfo"
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/flagutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/buildinfo"
+	"github.com/marcgauthier/metrics/internal/vm/lib/flagutil"
 )
 
 func logAllFlags() {

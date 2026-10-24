@@ -3,7 +3,7 @@ package fs
 import (
 	"sync"
 
-	"github.com/marcgauthier/logmetrics/internal/vm/lib/fs/fsutil"
+	"github.com/marcgauthier/metrics/internal/vm/lib/fs/fsutil"
 )
 
 // ParallelReaderAtOpener opens ReaderAt files in parallel.

@@ -26,7 +26,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/marcgauthier/logmetrics"
+	"github.com/marcgauthier/metrics"
 )
 
 var (

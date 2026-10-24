@@ -23,7 +23,7 @@ for upstream attribution and the preserved license texts.
 Go 1.26.10 or newer is required by the forked engine source.
 
 ```bash
-go get github.com/marcgauthier/logmetrics
+go get github.com/marcgauthier/metrics
 ```
 
 ```go
@@ -35,7 +35,7 @@ import (
     "log"
     "time"
 
-    "github.com/marcgauthier/logmetrics"
+    "github.com/marcgauthier/metrics"
 )
 
 func main() {
@@ -205,7 +205,7 @@ millisecond twice keeps the last value.
 ```text
 Your Go application
         |
-  github.com/marcgauthier/logmetrics (package metrics)
+  github.com/marcgauthier/metrics (package metrics)
     - options.go   Go configuration and validation
     - metrics.go   lifecycle, writes, selection, stats
         |

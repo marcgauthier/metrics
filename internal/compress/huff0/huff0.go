@@ -1,6 +1,6 @@
 // Package huff0 provides fast huffman encoding as used in zstd.
 //
-// See README.md at https://github.com/marcgauthier/logmetrics/internal/compress/tree/master/huff0 for details.
+// See README.md at https://github.com/marcgauthier/metrics/internal/compress/tree/master/huff0 for details.
 package huff0
 
 import (
@@ -10,7 +10,7 @@ import (
 	"math/bits"
 	"sync"
 
-	"github.com/marcgauthier/logmetrics/internal/compress/fse"
+	"github.com/marcgauthier/metrics/internal/compress/fse"
 )
 
 const (

@@ -10,8 +10,8 @@ import (
 	"hash/crc32"
 	"io"
 
-	"github.com/marcgauthier/logmetrics/internal/compress/huff0"
-	snappy "github.com/marcgauthier/logmetrics/internal/compress/internal/snapref"
+	"github.com/marcgauthier/metrics/internal/compress/huff0"
+	snappy "github.com/marcgauthier/metrics/internal/compress/internal/snapref"
 )
 
 const (
