@@ -1,0 +1,35 @@
+name: Go
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v6
+        with:
+          go-version: '1.26.10'
+          cache: false
+      - name: Resolve dependencies
+        run: go mod tidy
+      - name: Verify module files are tidy
+        run: git diff --exit-code -- go.mod go.sum
+      - name: Verify no upstream VictoriaMetrics modules remain
+        run: |
+          if go list -m all | grep -E '^github.com/VictoriaMetrics/'; then
+            echo "Standalone engine fork unexpectedly depends on VictoriaMetrics modules"
+            exit 1
+          fi
+      - name: Check formatting
+        run: test -z "$(gofmt -l metrics.go options.go metrics_test.go encryption_test.go noflag_test.go)"
+      - name: Tests and race detector
+        run: go test -race -count=1 ./...
+      - name: Static analysis
+        run: go vet ./...
